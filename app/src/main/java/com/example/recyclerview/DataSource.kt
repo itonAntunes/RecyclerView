@@ -2,10 +2,12 @@ package com.example.recyclerview
 
 import com.example.recyclerview.models.Moto
 
+// utilizado como banco de dados local.
 class DataSource {
-
+    // o companio object é uma classe estatica que pode ser acessada de qualquer local do projeto.
     companion object {
 
+        // está função cria uma lista de objeto do tipo Moto, que pode ser utilizado como banco de dados.
         fun createDataSet() : ArrayList<Moto>{
 
             val list = ArrayList<Moto> ()
