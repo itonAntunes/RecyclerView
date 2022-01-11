@@ -44,8 +44,6 @@ dependencies {
     // CardView
     implementation "androidx.cardview:cardview:1.0.0"
 
-    //recyclerview
-    implementation "androidx.Recyclerview.recyclerview:1.2.0"
 
     //glide
     def glide_version = "4.12.0"
